@@ -1,7 +1,6 @@
 const {Model, DataTypes} = require ("sequelize");
 const bcrypt = require ("bcrypt")
 const sequelize = require ("../config/connection");
-const { model } = require("mongoose");
 
 class User extends Model {
     checkpass (pw){
