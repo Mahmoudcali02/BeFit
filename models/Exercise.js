@@ -21,17 +21,13 @@ Exercise.init ({
         dataType: DataTypes.INTEGER,
         allowNull: true,
     },
-    minutes: {
+    duration: {
         dataType: DataTypes.INTEGER,
         allowNull: true,
     }
 },
 {
     sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: "Exercise"
 }
 )
 
